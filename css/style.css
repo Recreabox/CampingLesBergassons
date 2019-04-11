@@ -1,0 +1,167 @@
+h1 	/*Style des titres principaux */
+{
+ 	font-size: xx-large; /* Titres de 40 pixels */
+ 	font-family: 'Roboto-Thin';
+ 	font-weight: bold;
+ 	text-align: center;
+ 	background-color: rgba(0, 0, 0, 0.8);
+ 	padding: 18px;
+ 	color: white;
+}
+
+
+
+/*COULEUR DE FOND ET POLICE */
+.page
+{
+    background-color: #F6F5F2;
+    color: black;
+
+}
+
+.debut
+{
+	background-color: #9abe29;
+	color: white;
+}
+
+.page .gicon
+{
+vertical-align: bottom ;
+}
+
+
+
+/* CONTENEUR BODY */
+.conteneur
+{
+    display: inline;
+    justify-content: space-between;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+ .element
+{
+	flex: 1.2;
+    position: relative;
+    background-color: #F6F5F2;
+    padding: 10px;
+    color: black;
+    font-family: 'Roboto-Thin';
+}
+
+.conteneur .element h2
+{
+	font-family: 'Lato-Heavy';
+	text-align: center;
+	font-size: 20px;
+	color: #444444;
+	
+}
+
+.conteneur  p
+{
+	text-align: center;
+	font-family: 'Roboto-Thin';
+	color: black;
+}
+
+/*Paragraphe liste */
+#visiter ul
+{
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Supprimer les bordures du Body */
+*
+{
+ margin:0;
+ padding:0;
+}
+
+.conteneur p , .conteneur ul
+{
+	padding-top: 30px;
+	font-size: 20px;
+	padding-bottom: 20px
+}
+
+
+
+.element p {
+	padding-left: 20px  ;
+	padding-right: 20px;
+}
+
+
+article h1
+{
+	border-bottom: 10px;
+	border-bottom-color: blue
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+	.conteneur{
+		display: flex;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.conteneur .element h2
+	{
+		font-size: 40px;
+	}
+
+
+	#visiter ul
+	{
+		font-size: 20px;
+	}
+
+	#boussole p{
+		padding-bottom: 50px;
+	}
+
+	#presentation  img{
+		padding-top: 50px;
+	}
+}
+
+@media (max-width: 767.98px){
+
+
+	.conteneur .element h2
+	{
+		font-size: 40px;
+	}
+
+
+	#visiter ul
+	{
+		font-size: 20px;
+	}
+
+	#boussole p{
+		padding-bottom: 50px;
+	}
+
+	#presentation  img{
+		padding-top: 50px;
+	}
+
+}
+
+
+
+
+
+

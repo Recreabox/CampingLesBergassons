@@ -1,0 +1,119 @@
+
+
+
+
+.text-center{
+    padding-bottom: 50px;}
+}
+
+
+.form-control, .btn{
+    border-radius: 3px;
+}
+.signup-form{
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 180px;
+}
+.signup-form h2{
+    color: black;
+    font-weight: bold;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+
+}
+
+.signup-form h2:before{
+    left: 0;
+}
+.signup-form h2:after{
+    right: 0;
+}
+.signup-form .hint-text{
+    color: black;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.signup-form form {
+
+    background-color: #fff;
+    padding: 50px 20px;
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+
+
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+    margin-top: 3px;
+}
+
+
+.signup-form a{
+    color: white;
+    text-decoration: underline;
+}
+.signup-form a:hover{
+    text-decoration: none;
+}
+.signup-form form a{
+    color: #5cb85c;
+    text-decoration: none;
+}
+.signup-form form a:hover{
+    text-decoration: underline;
+
+
+input{
+    color:#3c3c3c;
+    background-color: #fbfbfb;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    
+}
+
+.feedback-input {
+    color:black;
+    font-family: Roboto-Thin, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: #F6F5F2;
+    border:2px solid #1D1D1D;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+}
+
+.feedback-input:focus { border:2px solid #3498DB; }
+
+button .submit-btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #1e62d8;
+    font-weight: 700;
+    padding: 14px 30px;
+    border-radius: 10px;
+    border: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+section
+{
+    background-color: black;
+}
+

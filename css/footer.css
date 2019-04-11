@@ -1,0 +1,71 @@
+/* COULEUR DU FOOTER */
+.fin
+{
+    background-color: #1D1D1D;
+}
+
+/* CONTENEUR FOOTER */
+.fin
+{
+	display: flex;
+	justify-content: space-between;
+    padding: 20px ;
+
+
+
+}
+
+.useful-links
+{
+	color:#9ABE29;
+	font-family: 'Lato-Heavy';
+	font-size: 35px;
+	padding-top:30px;
+	white-space: nowrap;
+}
+
+.useful-links-list
+{
+color:white;
+padding-top:25px;
+font-family: 'Roboto-Thin';
+font-size: 20px;
+	white-space: nowrap;
+}
+
+
+
+.recreabox
+{
+
+	text-align: center;
+	font-family: Helvetica;
+	color:#F2F1F1;
+	background-color:#333539;
+	padding:10px;
+}
+
+
+
+.footer-logo{
+	padding-top: 50px ;
+}
+
+iframe
+{
+	width: 100% ;
+}
+
+
+.footer-logo{
+	width: 100%;
+
+}
+
+@media (max-width: 1150px){
+	.useful-links
+	{
+		font-size: 25px;
+		padding-top:30px;
+	}
+}

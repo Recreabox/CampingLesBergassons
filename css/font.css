@@ -1,0 +1,43 @@
+/* INITIALISATION DES POLICES */
+@font-face 
+{
+    font-family: 'Modern Sans Light';
+    src: url('font/Modern_Sans_Light.otf');
+}
+
+@font-face 
+{
+    font-family: 'Roboto-Thin';
+    src: url('font/Roboto-Thin.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Signatra';
+    src: url('font/Signatra.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Lato-Regular';
+    src: url('font/Lato-Regular.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Lato-Heavy';
+    src: url('font/Lato-Heavy.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Morton-ExtraBold';
+    src: url('font/Morton-ExtraBold.otf');
+}
+
+
+@font-face 
+{
+  font-family: 'Raleway';
+  src: url('font/Raleway-Regular.otf');
+}

@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(href="https://fonts.googleapis.com/css?family=Lato:900");
+@import url(href="https://fonts.googleapis.com/css?family=Roboto:100");
+
+.section-contact {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+
+  
+  
+}
+
+form {
+  max-width:580px;
+  padding-bottom:50px;
+  margin: auto;
+}
+
+.contact-title{
+  color:white;
+  text-align: center;
+  padding-top:60px;
+  padding-bottom:40px;
+  font-family: Lato, Arial, sans-serif;
+  font-size:32px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.feedback-input {
+  color:black;
+  font-family: Roboto-Thin, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 26px;
+  background-color: white;
+  border:2px solid #1D1D1D;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #3498DB; }
+
+textarea {
+  height: 250px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #1FC760;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:15px;
+  padding-bottom:15px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#7BDF2C;; }
+
+
+
+
+.numero-info{
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:10px;
+  color:white;
+  font-size:20px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.adresse-info{
+  text-align: center;
+  color:white;
+  font-size:20px;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  padding-bottom: 70px;
+}
+
+
+.adresse-info a{
+  justify-content: center;
+  color:white;
+}
+
+/* Message d'erreurs  */
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+
+.success-msg,
+.error-msg {
+  margin: 10px 0;
+  margin-left: 36%;
+  margin-right: 36%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.error-msg {
+  color: #D8000C;
+  background-color: #FFBABA;
+  border-color: #000;:
+  box-sizing: border-box;
+  border:2px solid #D8000C;
+  border-radius: 5px;
+  text-align:center ;
+}
+
+
+.success-msg {
+  color: #270;
+  background-color: #DFF2BF;
+  border-color: #000;:
+  box-sizing: border-box;
+  border:2px solid #270;
+  border-radius: 5px;
+  text-align:center ;
+}
+
+
+form {
+  padding-left:30px;
+  padding-right:30px;
+
+
+
